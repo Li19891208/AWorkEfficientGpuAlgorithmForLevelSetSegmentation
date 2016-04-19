@@ -4,13 +4,13 @@
   <em>High Performance Graphics 2010</em>
 </p>
 
-<a href='http://graphics.stanford.edu/~mlrobert/publications/hpg_2010/'>![Alt text](/documentation/results/Brainweb-3D-Composite-1-6.png)</a>
+<a href='http://graphics.stanford.edu/papers/gpu_level_set/'>![Alt text](/documentation/results/Brainweb-3D-Composite-1-6.png)</a>
 
 <p align="center">
   <b>The source code and precompiled binaries available here are provided for non-commercial research purposes only.<b><br><br>
 </p>
 
-This repository contains a C++/CUDA implementation of our paper <a href='http://graphics.stanford.edu/~mlrobert/publications/hpg_2010/'>A Work-Efficient GPU Algorithm for Level Set Segmentation</a>.
+This repository contains a C++/CUDA implementation of our paper <a href='http://graphics.stanford.edu/papers/gpu_level_set/'>A Work-Efficient GPU Algorithm for Level Set Segmentation</a>.
 
 ### Requirements
 
@@ -18,11 +18,11 @@ This repository contains a C++/CUDA implementation of our paper <a href='http://
 * Visual Studio 2008
 * <a href='https://developer.nvidia.com/cuda-gpus'>CUDA-Enabled GPU</a>
 * <a href='https://developer.nvidia.com/cuda-downloads'>CUDA drivers</a>
-* <a href='http://graphics.stanford.edu/~mlrobert/github/AWorkEfficientGpuAlgorithmForLevelSetSegmentation/sdk.zip'>SDK zip file</a>
+* <a href='http://graphics.stanford.edu/papers/gpu_level_set/github/AWorkEfficientGpuAlgorithmForLevelSetSegmentation/sdk.zip'>SDK zip file</a>
 
 ### Precompiled Binaries
 
-Precompiled binaries are available <a href='http://graphics.stanford.edu/~mlrobert/github/AWorkEfficientGpuAlgorithmForLevelSetSegmentation/bin.zip'>here</a>. If you intend to run the precompiled binaries and you don't have Visual Studio 2008 installed, you'll need the <a href='http://www.microsoft.com/en-us/download/details.aspx?id=29'>Visual Studio 2008 Visual C++ Redistributable Package (x86)</a>.
+Precompiled binaries are available <a href='http://graphics.stanford.edu/papers/gpu_level_set/github/AWorkEfficientGpuAlgorithmForLevelSetSegmentation/bin.zip'>here</a>. If you intend to run the precompiled binaries and you don't have Visual Studio 2008 installed, you'll need the <a href='http://www.microsoft.com/en-us/download/details.aspx?id=29'>Visual Studio 2008 Visual C++ Redistributable Package (x86)</a>.
 
 ### Build Instructions
 
@@ -43,5 +43,5 @@ In the sdk\msdev folder, I have included an install_highlighting_vs8.reg file to
 
 * You'll need at least an NVIDIA GTX 280 to get the same performance we report in the paper.
 * The binaries and code are both packaged with pre-configured project files, which are combinations of image data and meaningful parameter values. These project files are intended as an easy method of getting started with the application, and also as a way of easily reproducing the results in the paper.
-* The video on the <a href='http://graphics.stanford.edu/~mlrobert/publications/hpg_2010/'>project page</a> offers rough guidance on the intended usage of the application.
+* The video on the <a href='http://graphics.stanford.edu/papers/gpu_level_set/'>project page</a> offers rough guidance on the intended usage of the application.
 * This codebase started as an undergraduate video game project and slowly evolved into its current form, so you will certainly find some irrelevant old systems as you dig through it.
